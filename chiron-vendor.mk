@@ -653,7 +653,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     CneApp \
-    datastatusnotification \
     dpmserviceapp \
     ims \
     libantradio \
