@@ -30,10 +30,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     $(LOCAL_PATH)/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     $(LOCAL_PATH)/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
-    $(LOCAL_PATH)/proprietary/system_ext/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qti.dpmframework.jar \
-    $(LOCAL_PATH)/proprietary/system_ext/framework/dpmapi.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/dpmapi.jar \
-    $(LOCAL_PATH)/proprietary/system_ext/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qcrilhook.jar \
-    $(LOCAL_PATH)/proprietary/system_ext/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-common.jar \
     $(LOCAL_PATH)/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
     $(LOCAL_PATH)/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     $(LOCAL_PATH)/proprietary/system_ext/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imscamera.so \
@@ -663,12 +659,16 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     CneApp \
+    com.qti.dpmframework \
+    dpmapi \
     dpmserviceapp \
     ims \
     libantradio \
     libsdm-disp-vndapis \
     PowerOffAlarm \
+    qcrilhook \
     qcrilmsgtunnel \
+    qti-telephony-common \
     QtiTelephonyService \
     SoterService \
     TimeService \
