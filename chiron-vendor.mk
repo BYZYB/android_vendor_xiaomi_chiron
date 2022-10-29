@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     $(LOCAL_PATH)/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     $(LOCAL_PATH)/proprietary/vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_workspaceFile.qwsp \
+    $(LOCAL_PATH)/proprietary/vendor/etc/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/camera/chiron_imx386_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/chiron_imx386_semco_chromatix.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/camera/chiron_ov5675_primax_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/chiron_ov5675_primax_chromatix.xml \
