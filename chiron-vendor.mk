@@ -624,7 +624,6 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     qcrilhook \
     qcrilmsgtunnel \
-    qti-telephony-common \
     QtiTelephonyService \
     SoterService \
     TimeService \
