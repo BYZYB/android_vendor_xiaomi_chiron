@@ -95,8 +95,9 @@ android_app_import {
 android_app_import {
 	name: "SoterService",
 	owner: "xiaomi",
-	apk: "proprietary/app/SoterService/SoterService.apk",
+	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
 	certificate: "platform",
+	soc_specific: true,
 }
 
 android_app_import {
