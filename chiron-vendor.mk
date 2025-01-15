@@ -172,7 +172,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_chiron_imx386_ak7372_semco.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
@@ -189,92 +188,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_4K_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_4K_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_4K_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_common.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_hfr_120.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_hfr_60.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_hfr_90.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_liveshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_snapshot_hdr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_snapshot_hht.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_video_hdr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_cpp_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_default_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_default_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hdr_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hdr_snapshot_3a.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hdr_video_3a.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_120_3a.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_120.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_60_3a.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_60.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_90_3a.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_90.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_liveshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_postproc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_snapshot_hdr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_video_hdr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_zsl_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_zsl_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_a3_default_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_a3_default_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_a3_hfr_120.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_a3_hfr_60.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_a3_hfr_90.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_common.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_ds_chromatix.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_120.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_60.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_90.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_liveshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_us_chromatix.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_video_full.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_cpp_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_default_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_hfr_120.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_hfr_60.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_hfr_90.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_liveshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_postproc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_video_full.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_zsl_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_primax_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_primax_zsl_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_a3_default_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_a3_default_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_120.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_60.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_90.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_common.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_ds_chromatix.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_120.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_60.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_90.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_liveshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_us_chromatix.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_video_full.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_cpp_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_default_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_hfr_120.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_hfr_60.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_hfr_90.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_liveshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_postproc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_video_full.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_zsl_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_ov5675_qtech_zsl_video.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libeglc2d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeglc2d.so \
@@ -299,12 +212,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_arcrtb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_arcrtb_lib.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_arcsoft_smoothtranstion_wrapper_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_arcsoft_smoothtranstion_wrapper_lib.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chiron_imx386_semco_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chiron_imx386_semco_eeprom.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chiron_imx386_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chiron_imx386_semco.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chiron_ov5675_primax_eeprom.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chiron_ov5675_primax.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chiron_ov5675_primax.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chiron_ov5675_qtech.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
@@ -471,8 +378,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.dsi.ant@1.0-impl.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.msm8998.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.msm8998.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8998.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8998.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
@@ -514,8 +419,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpustats.so \
@@ -586,7 +489,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/sensors.elliptic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.elliptic.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
@@ -666,13 +568,111 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     dpmserviceapp \
+    fingerprint.fpc.msm8998 \
+    fingerprint.goodix.msm8998 \
     ims \
     IWlanService \
+    libactuator_chiron_imx386_ak7372_semco \
+    libchromatix_chiron_imx386_semco_4K_preview \
+    libchromatix_chiron_imx386_semco_4K_video \
+    libchromatix_chiron_imx386_semco_common \
+    libchromatix_chiron_imx386_semco_cpp_hfr_120 \
+    libchromatix_chiron_imx386_semco_cpp_hfr_60 \
+    libchromatix_chiron_imx386_semco_cpp_hfr_90 \
+    libchromatix_chiron_imx386_semco_cpp_liveshot \
+    libchromatix_chiron_imx386_semco_cpp_preview \
+    libchromatix_chiron_imx386_semco_cpp_snapshot \
+    libchromatix_chiron_imx386_semco_cpp_snapshot_hdr \
+    libchromatix_chiron_imx386_semco_cpp_snapshot_hht \
+    libchromatix_chiron_imx386_semco_cpp_video \
+    libchromatix_chiron_imx386_semco_cpp_video_hdr \
+    libchromatix_chiron_imx386_semco_default_preview \
+    libchromatix_chiron_imx386_semco_default_video \
+    libchromatix_chiron_imx386_semco_hdr_snapshot_3a \
+    libchromatix_chiron_imx386_semco_hdr_video_3a \
+    libchromatix_chiron_imx386_semco_hfr_120 \
+    libchromatix_chiron_imx386_semco_hfr_120_3a \
+    libchromatix_chiron_imx386_semco_hfr_60 \
+    libchromatix_chiron_imx386_semco_hfr_60_3a \
+    libchromatix_chiron_imx386_semco_hfr_90 \
+    libchromatix_chiron_imx386_semco_hfr_90_3a \
+    libchromatix_chiron_imx386_semco_liveshot \
+    libchromatix_chiron_imx386_semco_postproc \
+    libchromatix_chiron_imx386_semco_preview \
+    libchromatix_chiron_imx386_semco_snapshot \
+    libchromatix_chiron_imx386_semco_snapshot_hdr \
+    libchromatix_chiron_imx386_semco_video \
+    libchromatix_chiron_imx386_semco_video_hdr \
+    libchromatix_chiron_imx386_semco_zsl_preview \
+    libchromatix_chiron_imx386_semco_zsl_video \
+    libchromatix_chiron_ov5675_primax_a3_default_preview \
+    libchromatix_chiron_ov5675_primax_a3_default_video \
+    libchromatix_chiron_ov5675_primax_a3_hfr_120 \
+    libchromatix_chiron_ov5675_primax_a3_hfr_60 \
+    libchromatix_chiron_ov5675_primax_a3_hfr_90 \
+    libchromatix_chiron_ov5675_primax_common \
+    libchromatix_chiron_ov5675_primax_cpp_ds_chromatix \
+    libchromatix_chiron_ov5675_primax_cpp_hfr_120 \
+    libchromatix_chiron_ov5675_primax_cpp_hfr_60 \
+    libchromatix_chiron_ov5675_primax_cpp_hfr_90 \
+    libchromatix_chiron_ov5675_primax_cpp_liveshot \
+    libchromatix_chiron_ov5675_primax_cpp_preview \
+    libchromatix_chiron_ov5675_primax_cpp_snapshot \
+    libchromatix_chiron_ov5675_primax_cpp_us_chromatix \
+    libchromatix_chiron_ov5675_primax_cpp_video \
+    libchromatix_chiron_ov5675_primax_cpp_video_full \
+    libchromatix_chiron_ov5675_primax_default_video \
+    libchromatix_chiron_ov5675_primax_hfr_120 \
+    libchromatix_chiron_ov5675_primax_hfr_60 \
+    libchromatix_chiron_ov5675_primax_hfr_90 \
+    libchromatix_chiron_ov5675_primax_liveshot \
+    libchromatix_chiron_ov5675_primax_postproc \
+    libchromatix_chiron_ov5675_primax_preview \
+    libchromatix_chiron_ov5675_primax_snapshot \
+    libchromatix_chiron_ov5675_primax_video_full \
+    libchromatix_chiron_ov5675_primax_zsl_preview \
+    libchromatix_chiron_ov5675_primax_zsl_video \
+    libchromatix_chiron_ov5675_qtech_a3_default_preview \
+    libchromatix_chiron_ov5675_qtech_a3_default_video \
+    libchromatix_chiron_ov5675_qtech_a3_hfr_120 \
+    libchromatix_chiron_ov5675_qtech_a3_hfr_60 \
+    libchromatix_chiron_ov5675_qtech_a3_hfr_90 \
+    libchromatix_chiron_ov5675_qtech_common \
+    libchromatix_chiron_ov5675_qtech_cpp_ds_chromatix \
+    libchromatix_chiron_ov5675_qtech_cpp_hfr_120 \
+    libchromatix_chiron_ov5675_qtech_cpp_hfr_60 \
+    libchromatix_chiron_ov5675_qtech_cpp_hfr_90 \
+    libchromatix_chiron_ov5675_qtech_cpp_liveshot \
+    libchromatix_chiron_ov5675_qtech_cpp_preview \
+    libchromatix_chiron_ov5675_qtech_cpp_snapshot \
+    libchromatix_chiron_ov5675_qtech_cpp_us_chromatix \
+    libchromatix_chiron_ov5675_qtech_cpp_video \
+    libchromatix_chiron_ov5675_qtech_cpp_video_full \
+    libchromatix_chiron_ov5675_qtech_default_video \
+    libchromatix_chiron_ov5675_qtech_hfr_120 \
+    libchromatix_chiron_ov5675_qtech_hfr_60 \
+    libchromatix_chiron_ov5675_qtech_hfr_90 \
+    libchromatix_chiron_ov5675_qtech_liveshot \
+    libchromatix_chiron_ov5675_qtech_postproc \
+    libchromatix_chiron_ov5675_qtech_preview \
+    libchromatix_chiron_ov5675_qtech_snapshot \
+    libchromatix_chiron_ov5675_qtech_video_full \
+    libchromatix_chiron_ov5675_qtech_zsl_preview \
+    libchromatix_chiron_ov5675_qtech_zsl_video \
+    libgf_ca \
+    libgf_hal \
+    libmmcamera_chiron_imx386_semco \
+    libmmcamera_chiron_imx386_semco_eeprom \
+    libmmcamera_chiron_ov5675_primax \
+    libmmcamera_chiron_ov5675_primax_eeprom \
+    libmmcamera_chiron_ov5675_qtech \
+    libmmcamera_chiron_ov5675_qtech_eeprom \
     libsdm-disp-vndapis \
     PowerOffAlarm \
     qcrilhook \
     qcrilmsgtunnel \
     QtiTelephonyService \
+    sensors.elliptic \
     SoterService \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
